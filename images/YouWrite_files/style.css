@@ -1,0 +1,75 @@
+/* Section-2 */
+.section-2 .heading-1{
+    margin-top: 8%;
+}
+
+.section-2 .heading-2{
+    margin-top: 1%;
+}
+
+.section-2 .row{
+    margin-top: 3%;
+}
+
+.checked {
+    color: orange;
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.leftbox{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.leftbox .content{
+    color: #fff;
+    background: rgba(0,0,0,5);
+    padding: 40px;
+    transition: .5s;
+}
+
+.leftbox .content:hover{
+    background: #e91e63;
+}
+
+.leftbox .content h1{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.leftbox .content p{
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+.rightbox{
+    width: 50%;
+    height: 100%;
+    float: right;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.post-slider{
+    border: 1px solid red;
+}
+
+.post-slider .post-wrapper{
+    border: 1px dashed red;
+    overflow: hidden;
+}
+
+.post-slider .post-wrapper .post{
+    height: 300px;
+    width: 500px;
+    background: rosybrown;
+    display: inline-block;
+}
